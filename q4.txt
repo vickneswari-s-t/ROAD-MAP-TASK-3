@@ -1,0 +1,92 @@
+question 4:
+
+ a.link:https://medium.com/@reach2arunprakash/www-guvi-io-zen-d395deec1373
+
+task -1:
+q1. Declare four variables without assigning values and print them in console 
+
+
+var a;
+var b;
+var c;
+var d;
+console.log(a,b,c,d);
+ 
+ o/p: undefined
+
+q2.Declare variables to store your first name, last name, marital status, country and age in multiple lines
+var first_name = 'vickneswari';
+var last_name = 'karthick';
+var age = '25';
+var martialstatus = 'married';
+var country = 'india';
+
+console.log(first_name);
+console.log (last_name);
+console.log(age);
+console.log( martialstatus);
+console.log( country);
+
+o/p:
+vickneswari
+karthick
+25
+married
+india
+
+q3.Declare variables to store your first name, last name, marital status, country and age in single lines
+
+var first_name='vickneswari', last_name='karthick', age ='25', martial status='married', country= 'india';
+
+console.log(first_name,last_name,age,matial status,country)
+
+
+o/p:vickneswari karthick 25 married india
+
+q4.Declare variables and assign string, boolean, undefined and null data types
+ 
+ const x=1;//value -integer
+ const y="Hello";//string
+ const data= true;
+ const name;//undefined
+ const number=null
+
+q5.convert string to number using parsInt,number,plus sign
+
+var x = "1000"
+console.log(parseInt(x));
+
+var y = "678"
+console.log(Number(y));
+
+var z = "0000"
+console.log(+z);
+
+task-2:
+Simple Programs todo for Operators
+1.Square of a number
+
+using math.pow:
+
+const num =5;
+const square=Math.pow(num,2);
+console.log(square);
+
+2.simple interest
+
+var p = 1000;//principal
+var r = 5;//rate
+var t = 3;//time
+
+var simpleinterest = (p * r * t) / 100;
+console.log("simpleinterset:" + simpleinterest);
+
+
+3.area of triangle
+var l=5;
+var b=6;
+var h=8;
+
+var area= l * b* h;
+console.log(area);
+
